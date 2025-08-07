@@ -81,3 +81,16 @@ Input:
 
 Output:  {"Alice": 85.0, "Bob": 68.33}
 
+11.You are given a dictionary representing a shopping cart. Each key is the item name, and its value is another dictionary with the price and quantity of that item.
+
+Write a Python function to calculate and return the total cost of all items in the cart.
+
+Input
+cart = {
+    "apple": {"price": 2.5, "quantity": 4},
+    "banana": {"price": 1.2, "quantity": 6},
+    "milk": {"price": 3.0, "quantity": 2}
+}
+Output
+Total cost: 21.8
+
