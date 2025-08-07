@@ -53,10 +53,31 @@ print(count_characters(word))
 # Input: ["hi", "hello", "hat", "at"]
 # Output: {2: ["hi", "at"], 5: ["hello"], 3: ["hat"]}
 
+Input= ["hi", "hello", "hat", "at"]
+Output={}
+for i in Input:
+
+    #print(len(i))
+    if len(i) in Output:
+
+        Output[len(i)].append(i)
+    else:
+        Output[len(i)]=[i]
+print(Output)
 # 10. Write a function that counts how many times each word appears in a sentence (ignore punctuation and case).
 #    example
 #       Input: "The cat and the hat."
 #       Output: {'the': 2, 'cat': 1, 'and': 1, 'hat': 1}
+
+Input="The cat and the hat."
+Output={}
+for i in Input.split():
+    print(i.lower())
+    if i.lower() in Output:
+        Output[i.lower()] +=1
+    else:
+        Output[i.lower()] =1
+print(Output)
 
 
 
