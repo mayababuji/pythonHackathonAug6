@@ -1,0 +1,46 @@
+##Hackathon Dataset
+import pandas as pd
+
+# Store Locations
+stores = [
+    {"store_id": 1, "city": "Toronto", "manager": "Alice"},
+    {"store_id": 2, "city": "Vancouver", "manager": "Bob"},
+    {"store_id": 3, "city": "Montreal", "manager": "Charlie"},
+]
+
+# Product Prices
+prices = {
+    "Apples": 3.5,
+    "Bananas": 2.0,
+    "Milk": 4.5,
+    "Bread": 3.0
+}
+
+# Sales Data
+sales = pd.DataFrame({
+    "store_id": [1, 2, 1, 3, 2, 1, 3, 3],
+    "product": ["Apples", "Bananas", "Milk", "Apples", "Bread", "Bread", "Bananas", "Milk"],
+    "quantity": [10, 20, 5, 15, 10, 12, 5, 8]
+})
+
+####5 Questions to solve with the above dataset
+Q1: Store Count per City
+Write Python code to count how many stores are in each city and print the result.
+
+Q2: Top Selling Product
+Find the product that has been sold in the highest total quantity across all stores.
+
+Q3: Total Sales Revenue per Store
+Using the prices dictionary and the sales DataFrame, calculate the total revenue for each store.
+
+Q4: Highest Revenue City
+Combine stores and your revenue results to determine which city earned the highest total revenue.
+
+Q5: Missing Data Check
+Introduce one NaN value into the sales DataFrame (for example in quantity) and write code to:
+
+Detect missing values
+
+Replace them with 0
+
+
