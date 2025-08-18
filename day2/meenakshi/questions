@@ -1,0 +1,96 @@
+1. Frequency Counter
+Problem:
+Write a function to count the frequency of each element in a list using a dictionary.
+
+Input: [2, 3, 2, 5, 3, 2]
+Output: {2: 3, 3: 2, 5: 1}
+
+2. Merge Two Dictionaries with Sum
+Problem:
+Merge two dictionaries. If a key exists in both, sum their values.
+
+Input:
+{"a": 5, "b": 10}
+{"a": 3, "c": 8}
+Output: {"a": 8, "b": 10, "c": 8}
+
+3. Invert a Dictionary
+Problem:
+Swap keys and values in a dictionary. If values are not unique, store keys in a list.
+
+Input: {"a": 1, "b": 2, "c": 1}
+Output: {1: ["a", "c"], 2: ["b"]}
+
+4. Find Top Scorer
+Problem:
+Given a dictionary of student scores, return the name(s) of the highest scorer(s).
+
+Input: {"Alice": 88, "Bob": 91, "Charlie": 91}
+Output: ["Bob", "Charlie"]
+
+5. Anagram Groups
+Problem:
+Group words that are anagrams using dictionaries.
+
+Input: ["bat", "tab", "tap", "pat", "cat"]
+Output: { 'abt': ['bat', 'tab'], 'apt': ['tap', 'pat'], 'act': ['cat'] }
+
+6. Word Frequency in Sentence
+Problem:
+Count word frequency from a given sentence (ignore punctuation and case).
+
+Input: "Hello hello world!"
+Output: {"hello": 2, "world": 1}
+
+7. Create a Dictionary from Two Lists
+Problem:
+Create a dictionary where one list contains keys and the other contains values.
+
+Input:
+keys = ["name", "age", "city"]
+values = ["Alice", 25, "Toronto"]
+Output: {"name": "Alice", "age": 25, "city": "Toronto"}
+
+8. Character Type Counter
+Problem:
+Count how many digits, letters, and special characters are in a string using a dictionary.
+
+Input: "Hello123@!"
+Output: {"letters": 5, "digits": 3, "specials": 2}
+
+
+9. Most Common Value
+Problem:
+Given a dictionary, find the most frequent value.
+
+Input: {"a": 1, "b": 2, "c": 1, "d": 3}
+Output: 1
+
+
+10. Nested Dictionary – Student Grades
+Problem:
+You are given a dictionary of students and their list of grades. Calculate and return a dictionary with their average scores.
+
+
+Input:
+
+{
+    "Alice": [80, 90, 85],
+    "Bob": [70, 60, 75]
+}
+
+Output:  {"Alice": 85.0, "Bob": 68.33}
+
+11.You are given a dictionary representing a shopping cart. Each key is the item name, and its value is another dictionary with the price and quantity of that item.
+
+Write a Python function to calculate and return the total cost of all items in the cart.
+
+Input
+cart = {
+    "apple": {"price": 2.5, "quantity": 4},
+    "banana": {"price": 1.2, "quantity": 6},
+    "milk": {"price": 3.0, "quantity": 2}
+}
+Output
+Total cost: 21.8
+
